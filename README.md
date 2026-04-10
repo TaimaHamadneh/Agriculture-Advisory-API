@@ -22,7 +22,7 @@ A smart agricultural advisory API that compares real-time sensor data with optim
 1. Ensure Docker & Docker Compose are installed.
 2. Clone the repository:
    ```bash
-   git clone [https://github.com/TaimaHamadneh/agri-advisory-api.git](https://github.com/TaimaHamadneh/Agriculture-Advisory-API.git)
+   git clone https://github.com/TaimaHamadneh/Agriculture-Advisory-API.git
    cd agri-advisory-api
 
 Run:
