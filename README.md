@@ -16,6 +16,34 @@ A smart agricultural advisory API that compares real-time sensor data with optim
 - PostgreSQL
 - Docker & Docker Compose
 
+## Project Structure 
+
+```
+Agriculture-Advisory-API/
+│
+├── app/
+│   │
+│   ├── routers/
+│   │   └── advice.py
+│   │
+│   ├── utils/
+│   │   └── advice_generator.py
+│   │
+│   ├── config.py
+│   ├── crud.py
+│   ├── database.py
+│   ├── load_csv.py
+│   ├── main.py
+│   ├── models.py
+│   └── schemas.py
+├── .gitignore
+├── .python-version
+├── crop_optimal_conditions.csv
+├── docker-compose.yml
+├── Dockerfile
+├── pyproject.toml
+└── uv.lock
+```
 
 ## Run Locally with Docker
 
